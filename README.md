@@ -1,5 +1,3 @@
-![Showcase Card](/public/static/opengraph-image.png)
-
 <div align="center">
 
 ## astro-erudite
