@@ -12,7 +12,7 @@ import { headingNamespace } from "./src/lib/heading-namespace"
 import { headingAnchors } from "./src/lib/heading-anchors"
 
 export default defineConfig({
-    site: "https://ebx32.github.io/blog",
+    site: "https://ebx32.github.io",
     base: "/blog",
   compressHTML: true,
   prefetch: { prefetchAll: true },
