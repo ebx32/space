@@ -13,7 +13,7 @@ import { headingAnchors } from "./src/lib/heading-anchors"
 
 export default defineConfig({
     site: "https://ebx32.github.io",
-    base: "/blog",
+    base: "/space",
   compressHTML: true,
   prefetch: { prefetchAll: true },
   integrations: [
