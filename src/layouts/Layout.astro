@@ -15,6 +15,8 @@ import "@/styles/icon-button.css"
 import "@/styles/bar.css"
 import "@/styles/shape.css"
 
+import "@/styles/particles.css";
+
 import Footer from "@/components/Footer.astro"
 import MetaHead from "@/components/MetaHead.astro"
 import Sidebar from "@/components/Sidebar.astro"
@@ -137,3 +139,7 @@ const { crumbs } = Astro.props
     }
   }
 </style>
+
+<script>
+  import "@/scripts/particles.js";
+</script>
