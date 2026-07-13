@@ -14,14 +14,14 @@ export const SITE = {
 } as const
 
 export const NAVIGATION = [
-  { href: "/blog", label: "Blog" },
-  { href: "/projects", label: "Projects" },
-  { href: "/authors", label: "Authors" },
+  { href: "/space/blog", label: "Blog" },
+  { href: "/space/projects", label: "Projects" },
+  { href: "/space/authors", label: "Authors" },
 ]
 
 export const SOCIALS: { href: string; label: string; icon: SvgComponent }[] = [
   { href: "https://github.com/jktrn", label: "GitHub", icon: GitHub },
   { href: "https://twitter.com/enscrbe", label: "Twitter", icon: Twitter },
   { href: "mailto:jason@enscribe.dev", label: "Email", icon: Email },
-  { href: "/rss.xml", label: "RSS", icon: RSS },
+  { href: "/space/rss.xml", label: "RSS", icon: RSS },
 ]
